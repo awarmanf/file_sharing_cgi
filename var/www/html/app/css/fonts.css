@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url(Raleway.ttf);
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url(PT-Sans.ttf); 
+}
+p.sansserif {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+p.ptsans {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+}
+p.raleway{
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(css/PT-Sans.ttf); 
+/*  src: local('PT Sans'), local('PTSans-Regular'), url(css/PT-Sans.ttf) format('truetype'); */
+}

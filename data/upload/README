@@ -1,0 +1,18 @@
+README
+
+This directory `/data/upload` is to keep the files the users upload.
+It should has an owner permission 755 for user apache or www.
+
+    $ ls -l /data/
+    ...
+    drwxr-xr-x 47 apache root  4096 Jan 28  2021 upload
+
+The files upload from users will be categorized by id of the user.
+
+    $ ls /data/upload/
+    100  103  107  110  116  119  122  128	131  134  137  141  145  150  153
+    101  104  108  114  117  120  123  129	132  135  139  142  146  151  155
+    102  105  109  115  118  121  125  130	133  136  140  144  148  152  157
+
+The directory should be on a separated partition (LVM) or mount on a nfs partition.
+

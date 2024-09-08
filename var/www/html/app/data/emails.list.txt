@@ -1,0 +1,9 @@
+acc.dept
+fin.dept
+ga.dept
+hr.dept
+it.dept
+log.dept
+mining.dept
+plat.dept
+safety.dept

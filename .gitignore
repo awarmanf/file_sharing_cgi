@@ -1,0 +1,10 @@
+#
+Read.me
+#
+SOURCES/
+sources/
+#
+*.bak
+*.log
+*.orig
+*.tmp
