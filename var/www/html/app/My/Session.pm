@@ -396,17 +396,10 @@ CSS
 
   print $cgi->header();
 
-#  print CGI::start_html(-title=>'RBA File Storage',
-#                       -style=>{-code=>$newStyle},
-#                       -script=>{-type=>'text/javascript',
-#                                 -src=>'/js/functions.js'}
-#                      );
-
-  print $cgi->start_html(-title => "RBA File Storage",
+  print $cgi->start_html(-title => "File Sharing Web Application",
                        -head  => [
-
             $cgi->Link({'rel'    => 'shortcut icon',
-                        'href'   => '/images/rba.ico',
+                        'href'   => '/images/logo.ico',
                         'type'   => 'image/x-icon'})],
 
                         -script  => { -type=>'text/javascript',-src=>'/js/functions.js'},
