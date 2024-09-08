@@ -1,7 +1,7 @@
 package My::Session;
 
 #
-# Upload & Notification System
+# File Sharing Application
 #
 
 use base qw(Exporter);
